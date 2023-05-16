@@ -27,7 +27,7 @@ To view the website locally, follow these steps:
 ## Libraries Used
 
 - [Typed.js](https://mattboldt.com/demos/typed-js/): This library creates the typing animation seen in the about section.
-- `space-elevator code snippet`: This custom script creates a "space elevator" effect on the website.
+- [Space Elevator.js](https://codepen.io/Eslam-Yahya/pen/MvKZKj): This custom script creates a "space elevator" effect on the website.
 - [FontAwesome](https://fontawesome.com/): This library is used for icons on the website.
 
 
