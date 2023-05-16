@@ -84,7 +84,7 @@ html {
     color: rgb(115, 3, 167);
   }
   header .logo {
-    font-size: 1.9rem;
+    font-size: 2.4rem;
     font-weight: 800;
     text-decoration: none;
     color: #0e2431;
@@ -317,4 +317,40 @@ html {
   }
   .social-icons a.instagram:hover {
     background-color: #ee00da;
+  }
+
+  /*Background*/
+  .container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+
+  }
+  
+  svg {
+    position: absolute;
+    height: 100%;
+  }
+  
+  .lines {
+    opacity: 0.05;
+  }
+  
+  .line {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #4C3A90;
+  }
+  
+  .lights {
+    opacity: 0.9;
+  }
+  
+  .light {
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #7A6BB5;
   }
