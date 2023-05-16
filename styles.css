@@ -286,7 +286,7 @@ html {
     font-size: 2rem;
     display: inline-block;
     line-height: 44px;
-    color: #00d9ff;
+    color: #eeeeee;
     background-color: #09011b;
     width: 44px;
     height: 44px;
@@ -297,6 +297,8 @@ html {
     -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
   }
+
+
   .social-icons a:active,
   .social-icons a:focus,
   .social-icons a:hover {
@@ -312,11 +314,8 @@ html {
   .social-icons a.linkedin:hover {
     background-color: #007bb6;
   }
-  .social-icons a.dev:hover {
-    background-color: #070707;
-  }
   .social-icons a.instagram:hover {
-    background-color: #ee00da;
+    background-color: #ef4b5d;
   }
 
   /*Background*/
@@ -327,7 +326,6 @@ html {
     display: flex;
     justify-content: center;
     overflow: hidden;
-
   }
   
   svg {
