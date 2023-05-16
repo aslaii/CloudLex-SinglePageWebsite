@@ -172,19 +172,13 @@ html {
     }
   }
   .home {
+    text-align: center;
     position: relative;
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
     min-height: 100vh;
     align-items: center;
-  }
-  .home #particles-js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
   }
   .home::before {
     content: "";
@@ -221,7 +215,7 @@ html {
   .home .content h2 span {
     font-size: 5rem;
     font-weight: 800;
-    color: #ff7b00;
+    color: #1d85da;
   }
   .home .content p {
     font-size: 2.5rem;
@@ -235,12 +229,20 @@ html {
     font-weight: 600;
     padding: 1rem 0;
   }
+
+.typing-text{
+    margin-bottom: 10rem;
+}
+
+/* ABOUT ME BUTTON  */
+
   .home .btn {
-    margin-top: 1rem;
-    position: absolute;
+
+    position: relative;
+    margin-top:  3rem;
     line-height: 0;
     padding: 1.6rem 3rem;
-    border-radius: 4em;
+    border-radius: 9em;
     transition: 0.5s;
     color: #fff;
     background: #2506ad;
@@ -263,9 +265,13 @@ html {
   .home .btn:hover i {
     transform: translateX(5px);
   }
+
+
+
+  /*  SOCIALS   */
   .socials {
     position: relative;
-    margin-top: 9rem;
+    margin-top: 3rem;
   }
   .socials .social-icons {
     padding-left: 0;
