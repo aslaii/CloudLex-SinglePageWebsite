@@ -455,7 +455,7 @@ html {
 
 /* skills section starts */
 .skills {
-  min-height: 50vh;
+  min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -474,7 +474,7 @@ html {
   margin: auto;
   position: relative;
 
-  margin-top: 2rem;
+  margin-top: 19rem;
 }
 .skills .container .row {
   display: grid;
