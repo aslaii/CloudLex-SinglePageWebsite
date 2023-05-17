@@ -455,7 +455,7 @@ html {
 
 /* skills section starts */
 .skills {
-  min-height: 90vh;
+  min-height: 50vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
 .skills h2 {
@@ -469,8 +469,11 @@ html {
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  width: 90%;
+  width: 50%;
+  height: auto;
   margin: auto;
+  position: relative;
+
   margin-top: 2rem;
 }
 .skills .container .row {
@@ -478,6 +481,14 @@ html {
   grid-template-columns: repeat(6, 1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
+}
+.skills .container .bar {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: 0.2s;
 }
 .skills .container .bar {
   margin-bottom: 15px;
@@ -507,23 +518,7 @@ html {
   font-family: "Poppins";
   margin-left: 0.5rem;
 }
-/* skills media queries starts*/
-  @media screen and (max-width: 600px) {
-    .skills .container {
-      padding: 0;
-      margin: 0;
-    }
-    .skills .container .row {
-      grid-template-columns: repeat(2, 1fr);
-      margin: 1rem;
-      padding: 2rem 0.2rem 2rem 0.2rem;
-      gap: 1rem;
-    }
-    .skills .container {
-      margin-top: 5px;
-      width: 100%;
-    }
-  }
+
 
   .education {
     background: #e5ecfb;
@@ -627,4 +622,20 @@ html {
       margin-right: 1rem;
       flex-wrap: wrap;
     }
+  }
+
+  #scroll-top {
+    position: fixed;
+    top: -140%;
+    right: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    background: #ffae00;
+    color: rgb(13, 0, 44);
+    border-radius: 50%;
+    transition: 1s linear;
+    z-index: 1000;
+  }
+  #scroll-top.active {
+    top: calc(100% - 12rem);
   }
