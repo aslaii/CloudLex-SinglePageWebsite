@@ -1,3 +1,6 @@
+
+
+//typed.js
 var typed = new Typed(".typing-text", {
     strings: [".NET Programming", "Routing and Switching", "Web Development", "Music", "Games"],
     loop: true,
@@ -6,6 +9,8 @@ var typed = new Typed(".typing-text", {
     backDelay: 500,
 });
 
+
+  //home background
 function animateWithRandomNumber(myClass, from, to) {
     TweenLite.fromTo(myClass, Math.floor(Math.random() * 20 + 1), { y: from }, { y: to,
       onComplete: animateWithRandomNumber,
@@ -18,6 +23,9 @@ function animateWithRandomNumber(myClass, from, to) {
   const itemsUp = [".light1", ".light2", ".light3", ".light9", ".light10", ".light17"].
   forEach(e => animateWithRandomNumber(e, 1080, -1080));
 
+
+  //tilt js
   VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
+
