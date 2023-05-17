@@ -6,7 +6,7 @@
 
 //typed.js
 var typed = new Typed(".typing-text", {
-    strings: [".NET Programming", "Routing and Switching", "Web Development", "Music", "Games", "Artificial Intelligence"],
+    strings: [".NET Programming", "Routing and Switching", "Web Development","Mobile Development", "Music", "Games", "Artificial Intelligence"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
