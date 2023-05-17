@@ -37,7 +37,7 @@ To view the website locally, follow these steps:
 - [Space Elevator.js](https://codepen.io/Eslam-Yahya/pen/MvKZKj): This custom script creates a "space elevator" effect on the website.
 - [FontAwesome](https://fontawesome.com/): This library is used for icons on the website.
 - [Scroll Reveal](https://scrollrevealjs.org/): This library creates a scroll reveal animation seen in between sections.
--[Vanilla Tilt.js](https://micku7zu.github.io/vanilla-tilt.js/): This library is used on tilt animation seen on 'about me' section image.
+- [Vanilla Tilt.js](https://micku7zu.github.io/vanilla-tilt.js/): This library is used on tilt animation seen on 'about me' section image.
 
 
 ## Contact
