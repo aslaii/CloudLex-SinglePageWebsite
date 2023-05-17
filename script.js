@@ -17,3 +17,7 @@ function animateWithRandomNumber(myClass, from, to) {
   forEach(e => animateWithRandomNumber(e, -1080, 1080));
   const itemsUp = [".light1", ".light2", ".light3", ".light9", ".light10", ".light17"].
   forEach(e => animateWithRandomNumber(e, 1080, -1080));
+
+  VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    max: 15,
+});
