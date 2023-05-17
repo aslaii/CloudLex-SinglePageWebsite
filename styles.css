@@ -339,6 +339,10 @@ html {
     fill: #7A6BB5;
   }
 
+
+
+
+  /* About Me*/
   .about {
     background: rgb(255, 255, 255);
   }
@@ -361,7 +365,7 @@ html {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
     mix-blend-mode: luminosity;
     transition: 0.3s;
-    cursor: pointer;
+    cursor: pointer;s
   }
   .about .row .image img:hover {
     mix-blend-mode: normal;
