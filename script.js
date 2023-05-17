@@ -55,7 +55,7 @@ function animateWithRandomNumber(myClass, from, to) {
 
 
   //tilt js
-  VanillaTilt.init(document.querySelectorAll(".tilt"), {
+VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 15,
 });
 

@@ -6,6 +6,7 @@ Welcome to the repository for my portfolio website. This is a simple, single-pag
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)](https://github.com/aslaii/CloudLex-SinglePageWebsite/search?l=html)&nbsp;
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)](https://github.com/aslaii/CloudLex-SinglePageWebsite/search?l=css)&nbsp;
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)](https://github.com/aslaii/CloudLex-SinglePageWebsite/search?l=javascript)
+<img alt="jQuery" src="https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white"/>
 
 
 ## Project Structure
@@ -35,6 +36,7 @@ To view the website locally, follow these steps:
 - [Typed.js](https://mattboldt.com/demos/typed-js/): This library creates the typing animation seen in the about section.
 - [Space Elevator.js](https://codepen.io/Eslam-Yahya/pen/MvKZKj): This custom script creates a "space elevator" effect on the website.
 - [FontAwesome](https://fontawesome.com/): This library is used for icons on the website.
+- [Scroll Reveal](https://scrollrevealjs.org/): This library creates a scroll reveal animation seen in between sections.
 
 
 ## Contact
