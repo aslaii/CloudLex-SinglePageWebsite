@@ -469,11 +469,10 @@ html {
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  width: 50%;
+  width: 65%;
   height: auto;
   margin: auto;
   position: relative;
-
   margin-top: 10rem;
 }
 .skills .container .row {
@@ -599,7 +598,7 @@ html {
   @media screen and (max-width: 600px) {
     .education .box-container .box {
       flex-direction: column;
-      width: 100%;
+      width: 65%;
     }
     .education .box-container .box .image {
       width: 100%;
